@@ -12,6 +12,14 @@ class MenuScene:SKScene {
     
     // MARK: - Private class constants
     private let playButton = PlayButton()
+    private let ground = Ground()
+    private let hills = Hills()
+    private let cloudController = CloudController()
+    private let gameLogo = GameLogo()
+    private let gameTitle = GameTitle()
+    
+    // MARK: - Private class variables
+    private var lastUpdateTime:NSTimeInterval = 0.0
     
     // MARK: - Init
     required init?(coder aDecoder: NSCoder) {
@@ -32,12 +40,34 @@ class MenuScene:SKScene {
         // Set the background color
         self.backgroundColor = Colors.colorFromRGB(rgbvalue: Colors.Background)
         
+        // Add the cloud controller to the scene
+        self.addChild(self.cloudController)
+        
+        // Add the hills to the scene
+        self.addChild(self.hills)
+        
+        // Add the ground to the scene
+        self.addChild(self.ground)
+        
+        // Add the game title to the scene
+        
+        self.addChild(self.gameTitle)
+        
+        // Add the game logo to the scene
+        self.addChild(self.gameLogo)
+        
         // Add the play button
         self.addChild(self.playButton)
     }
     
     // MARK: - Update
     override func update(currentTime: NSTimeInterval) {
+        
+        // Calculate "delta"
+        let delta = currentTime - self.lastUpdateTime
+        self.lastUpdateTime = currentTime
+        
+        self.cloudController.update(delta: delta)
     }
     
     // MARK: - Touch Events

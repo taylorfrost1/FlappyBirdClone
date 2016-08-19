@@ -10,6 +10,15 @@ import SpriteKit
 
 class GameOverScene:SKScene {
     
+    private let cloudController = CloudController()
+    private let hills = Hills()
+    private let ground = Ground()
+    private let gameOver = GameOver()
+    
+    // MARK: - Private class variables
+    private var scoreboard = Scoreboard()
+    private var lastUpdateTime:NSTimeInterval = 0.0
+    
     // MARK: - Private class constants
     private let retryButton = RetryButton()
     
@@ -22,14 +31,33 @@ class GameOverScene:SKScene {
         super.init(size: size)
     }
     
-    override func didMoveToView(view: SKView) {
-        self.setupScene()
+    convenience init(size: CGSize, score: Int) {
+        self.init(size: size)
+        
+        self.setupScene(score: score)
     }
     
+
     // MARK: - Setup
-    private func setupScene() {
+    private func setupScene(score score: Int) {
         // Set the background color
         self.backgroundColor = Colors.colorFromRGB(rgbvalue: Colors.Background)
+        
+        // Add the cloud controller to the scene
+        self.addChild(self.cloudController)
+        
+        // Add the hills to the scene
+        self.addChild(self.hills)
+        
+        // Add the ground to the scene
+        self.addChild(self.ground)
+        
+        // Add the game over title to the scene
+        self.addChild(self.gameOver)
+        
+        // Instantiate the scoreboard, then add it to the scene
+        self.scoreboard = Scoreboard(score: score, bestScore: GameSettings.sharedInstance.getBestScore())
+        self.addChild(self.scoreboard)
         
         // Add the play button
         self.addChild(self.retryButton)
@@ -37,7 +65,12 @@ class GameOverScene:SKScene {
     
     // MARK: - Update
     override func update(currentTime: NSTimeInterval) {
-
+        
+        // Calculate "delta"
+        let delta = currentTime - self.lastUpdateTime
+        self.lastUpdateTime = currentTime
+        
+        self.cloudController.update(delta: delta)
     }
     
     // MARK: - Touch Events

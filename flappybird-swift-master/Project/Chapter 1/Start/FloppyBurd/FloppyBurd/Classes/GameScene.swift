@@ -22,6 +22,9 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
     
     private let logController = LogController()
     
+    private let hills = Hills()
+    private let cloudController = CloudController()
+    
 
     // MARK: - Private class variables
     private var lastUpdateTime:NSTimeInterval = 0.0
@@ -72,6 +75,12 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
         // Add the score label to the game node
         self.gameNode.addChild(self.scoreLabel)
         
+        // Add the cloudController to the game node
+        self.gameNode.addChild(self.cloudController)
+        
+        // Add the hills to the game node
+        self.gameNode.addChild(self.hills)
+        
         // Add the logController to the game node
         self.gameNode.addChild(self.logController)
         
@@ -97,9 +106,11 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
         
         switch self.state {
         case GameState.Tutorial:
-            return
+            self.cloudController.update(delta: delta)
             
         case GameState.Running:
+            self.cloudController.update(delta: delta)
+            self.hills.update(delta: delta)
             self.logController.update(delta: delta)
             self.ground.update(delta: delta)
             self.player.update()
@@ -108,7 +119,7 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
             return
             
         case GameState.GameOver:
-            return
+            self.cloudController.update(delta: delta)
         }
     }
     
@@ -126,6 +137,8 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
                     print("Game Over: Player crashed into the scene.")
                 } else {
                     self.player.crashed()
+                    self.flashBackground()
+                    self.shakeBackground()
                     self.switchToGameOver()
                 }
             }
@@ -136,6 +149,8 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
                     print("Game Over: Player crashed into a log.")
                 } else {
                     self.player.smacked()
+                    self.flashBackground()
+                    self.shakeBackground()
                     self.switchToGameOver()
                 }
             }
@@ -210,12 +225,27 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
             self.loadGameOverScene()
         })
     }
+    
+    func flashBackground() {
+        let colorFlash = SKAction.runBlock({
+            self.backgroundColor = Colors.colorFromRGB(rgbvalue: Colors.Flash)
+            self.runAction(SKAction.waitForDuration(0.5), completion: {
+                self.backgroundColor = Colors.colorFromRGB(rgbvalue: Colors.Background)
+            })
+        })
+        self.runAction(colorFlash)
+    }
+    
+    func shakeBackground() {
+        let shake = SKAction.screenShakeWithNode(self.gameNode, amount: CGPoint(x: -25, y: 10), oscillations: 10, duration: 0.75)
+        self.runAction(shake)
+    }
         
 
     // MARK: - Load Scene
     private func loadGameOverScene() {
 
-        let gameOverScene = GameOverScene(size: kViewSize)
+        let gameOverScene = GameOverScene(size: kViewSize, score: self.player.getScore())
         let transition = SKTransition.fadeWithColor(SKColor.blackColor(), duration: 0.25)
         
         self.view?.presentScene(gameOverScene, transition: transition)

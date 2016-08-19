@@ -59,6 +59,14 @@
 		FDA0DB7A1D67AD6400DEAA3E /* ScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB791D67AD6400DEAA3E /* ScoreLabel.swift */; };
 		FDA0DB7C1D67ADB900DEAA3E /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB7B1D67ADB900DEAA3E /* GameSettings.swift */; };
 		FDA0DB7E1D67B07D00DEAA3E /* GameAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB7D1D67B07D00DEAA3E /* GameAudio.swift */; };
+		FDA0DB811D67B6A700DEAA3E /* GameLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB801D67B6A700DEAA3E /* GameLogo.swift */; };
+		FDA0DB831D67B6E900DEAA3E /* GameTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB821D67B6E900DEAA3E /* GameTitle.swift */; };
+		FDA0DB851D67B71100DEAA3E /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB841D67B71100DEAA3E /* GameOver.swift */; };
+		FDA0DB871D67B74400DEAA3E /* ScoreBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB861D67B74400DEAA3E /* ScoreBoard.swift */; };
+		FDA0DB891D67B77400DEAA3E /* Hills.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB881D67B77400DEAA3E /* Hills.swift */; };
+		FDA0DB8B1D67B7A700DEAA3E /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB8A1D67B7A700DEAA3E /* Cloud.swift */; };
+		FDA0DB8D1D67B7DD00DEAA3E /* CloudController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB8C1D67B7DD00DEAA3E /* CloudController.swift */; };
+		FDA0DB8F1D67BE7E00DEAA3E /* Smoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB8E1D67BE7E00DEAA3E /* Smoke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +145,14 @@
 		FDA0DB791D67AD6400DEAA3E /* ScoreLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreLabel.swift; sourceTree = "<group>"; };
 		FDA0DB7B1D67ADB900DEAA3E /* GameSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
 		FDA0DB7D1D67B07D00DEAA3E /* GameAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameAudio.swift; sourceTree = "<group>"; };
+		FDA0DB801D67B6A700DEAA3E /* GameLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLogo.swift; sourceTree = "<group>"; };
+		FDA0DB821D67B6E900DEAA3E /* GameTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTitle.swift; sourceTree = "<group>"; };
+		FDA0DB841D67B71100DEAA3E /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		FDA0DB861D67B74400DEAA3E /* ScoreBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreBoard.swift; sourceTree = "<group>"; };
+		FDA0DB881D67B77400DEAA3E /* Hills.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hills.swift; sourceTree = "<group>"; };
+		FDA0DB8A1D67B7A700DEAA3E /* Cloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		FDA0DB8C1D67B7DD00DEAA3E /* CloudController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudController.swift; sourceTree = "<group>"; };
+		FDA0DB8E1D67BE7E00DEAA3E /* Smoke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Smoke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +232,7 @@
 		3FA2AC7E1C7BB041005F4564 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FDA0DB7F1D67B68400DEAA3E /* Interface Nodes */,
 				FDA0DB701D67A2D200DEAA3E /* Logs */,
 				FDA0DB6B1D679FE500DEAA3E /* Player */,
 				FDA0DB681D6786E600DEAA3E /* Environment */,
@@ -366,6 +383,9 @@
 			children = (
 				FDA0DB691D67870200DEAA3E /* Ground.swift */,
 				FDA0DB791D67AD6400DEAA3E /* ScoreLabel.swift */,
+				FDA0DB881D67B77400DEAA3E /* Hills.swift */,
+				FDA0DB8A1D67B7A700DEAA3E /* Cloud.swift */,
+				FDA0DB8C1D67B7DD00DEAA3E /* CloudController.swift */,
 			);
 			name = Environment;
 			sourceTree = "<group>";
@@ -374,6 +394,7 @@
 			isa = PBXGroup;
 			children = (
 				FDA0DB6C1D67A00A00DEAA3E /* Player.swift */,
+				FDA0DB8E1D67BE7E00DEAA3E /* Smoke.swift */,
 			);
 			name = Player;
 			sourceTree = "<group>";
@@ -386,6 +407,17 @@
 				FDA0DB751D67A40800DEAA3E /* LogController.swift */,
 			);
 			name = Logs;
+			sourceTree = "<group>";
+		};
+		FDA0DB7F1D67B68400DEAA3E /* Interface Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				FDA0DB801D67B6A700DEAA3E /* GameLogo.swift */,
+				FDA0DB821D67B6E900DEAA3E /* GameTitle.swift */,
+				FDA0DB841D67B71100DEAA3E /* GameOver.swift */,
+				FDA0DB861D67B74400DEAA3E /* ScoreBoard.swift */,
+			);
+			name = "Interface Nodes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -536,21 +568,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA2AC831C7BB041005F4564 /* GameScene.swift in Sources */,
+				FDA0DB8B1D67B7A700DEAA3E /* Cloud.swift in Sources */,
 				3FA2ACBD1C7BE410005F4564 /* SKTEffects.swift in Sources */,
 				FDA0DB781D67AC2000DEAA3E /* GameFonts.swift in Sources */,
+				FDA0DB851D67B71100DEAA3E /* GameOver.swift in Sources */,
 				FDA0DB721D67A2E400DEAA3E /* Log.swift in Sources */,
 				3FA2ACB61C7BE410005F4564 /* CGPoint+Extensions.swift in Sources */,
 				FDA0DB7A1D67AD6400DEAA3E /* ScoreLabel.swift in Sources */,
 				3FA2ACBA1C7BE410005F4564 /* SKAction+SpecialEffects.swift in Sources */,
 				3FA2ACB71C7BE410005F4564 /* CGVector+Extensions.swift in Sources */,
 				FDA0DB531D677D4D00DEAA3E /* Constants.swift in Sources */,
+				FDA0DB8F1D67BE7E00DEAA3E /* Smoke.swift in Sources */,
 				3FA2ACB91C7BE410005F4564 /* SKAction+Extensions.swift in Sources */,
+				FDA0DB831D67B6E900DEAA3E /* GameTitle.swift in Sources */,
 				FDA0DB761D67A40800DEAA3E /* LogController.swift in Sources */,
 				FDA0DB5A1D67813C00DEAA3E /* GameTextures.swift in Sources */,
 				FDA0DB5D1D67823200DEAA3E /* PlayButton.swift in Sources */,
 				FDA0DB7E1D67B07D00DEAA3E /* GameAudio.swift in Sources */,
 				3FA2ACBF1C7BE410005F4564 /* Vector3.swift in Sources */,
 				3FA2ACBB1C7BE410005F4564 /* SKColor+Extensions.swift in Sources */,
+				FDA0DB811D67B6A700DEAA3E /* GameLogo.swift in Sources */,
 				FDA0DB551D67800F00DEAA3E /* Colors.swift in Sources */,
 				FDA0DB671D6786AA00DEAA3E /* Contact.swift in Sources */,
 				3FA2AC821C7BB041005F4564 /* AppDelegate.swift in Sources */,
@@ -562,8 +599,11 @@
 				FDA0DB741D67A38300DEAA3E /* ScoreNode.swift in Sources */,
 				FDA0DB7C1D67ADB900DEAA3E /* GameSettings.swift in Sources */,
 				FDA0DB5F1D6782A300DEAA3E /* TutorialButton.swift in Sources */,
+				FDA0DB871D67B74400DEAA3E /* ScoreBoard.swift in Sources */,
 				FDA0DB6A1D67870200DEAA3E /* Ground.swift in Sources */,
+				FDA0DB891D67B77400DEAA3E /* Hills.swift in Sources */,
 				3FA2ACBC1C7BE410005F4564 /* SKNode+Extensions.swift in Sources */,
+				FDA0DB8D1D67B7DD00DEAA3E /* CloudController.swift in Sources */,
 				FDA0DB571D6780D500DEAA3E /* SpriteName.swift in Sources */,
 				FDA0DB651D67842600DEAA3E /* GameOverScene.swift in Sources */,
 				3FA2ACB51C7BE410005F4564 /* CGFloat+Extensions.swift in Sources */,
