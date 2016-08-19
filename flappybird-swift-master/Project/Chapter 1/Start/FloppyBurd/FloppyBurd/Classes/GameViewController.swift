@@ -11,18 +11,20 @@ import SpriteKit
 
 class GameViewController: UIViewController {
 
-    override func viewWillLayoutSubviews() {
+        override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
         
         if let skView = self.view as? SKView {
             if (skView.scene == nil) {
                 
-                skView.showsFPS = true
-                skView.showsPhysics = true
+                if kDebug {
+                    skView.showsFPS = true
+                    skView.showsPhysics = true
+                }
                 
                 skView.ignoresSiblingOrder = false
                 
-                let menuScene = GameScene(size: UIScreen.mainScreen().bounds.size)
+                let menuScene = MenuScene(size: kViewSize)
                 menuScene.scaleMode = SKSceneScaleMode.AspectFill
                 
                 let menuTransition = SKTransition.fadeWithColor(SKColor.blackColor(), duration: 0.25)

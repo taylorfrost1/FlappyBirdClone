@@ -1,17 +1,17 @@
 //
-//  GameScene.swift
-//  floppyburd
+//  GameOverScene.swift
+//  FloppyBurd
 //
-//  Created by Jeremy Novak on 2/20/16.
-//  Copyright (c) 2016 Jeremy Novak. All rights reserved.
+//  Created by Taylor Frost on 8/19/16.
+//  Copyright © 2016 Jeremy Novak. All rights reserved.
 //
 
 import SpriteKit
 
-class GameScene:SKScene {
+class GameOverScene:SKScene {
     
     // MARK: - Private class constants
-    private let tutorialButton = TutorialButton()
+    private let retryButton = RetryButton()
     
     // MARK: - Init
     required init?(coder aDecoder: NSCoder) {
@@ -32,11 +32,12 @@ class GameScene:SKScene {
         self.backgroundColor = Colors.colorFromRGB(rgbvalue: Colors.Background)
         
         // Add the play button
-        self.addChild(self.tutorialButton)
+        self.addChild(self.retryButton)
     }
     
     // MARK: - Update
     override func update(currentTime: NSTimeInterval) {
+
     }
     
     // MARK: - Touch Events
@@ -44,20 +45,18 @@ class GameScene:SKScene {
         let touch:UITouch = touches.first! as UITouch
         let touchLocation = touch.locationInNode(self)
         
-        if self.tutorialButton.containsPoint(touchLocation) {
-            self.tutorialButton.tapped()
+        if self.retryButton.containsPoint(touchLocation) {
+            self.retryButton.tapped()
             
-            self.loadGameOverScene()
+            self.loadMenuScene()
         }
     }
     
     // MARK: - Load Scene
-    private func loadGameOverScene() {
-
-        let gameOverScene = GameOverScene(size: kViewSize)
+    private func loadMenuScene() {
+        let menuScene = MenuScene(size: kViewSize)
         let transition = SKTransition.fadeWithColor(SKColor.blackColor(), duration: 0.25)
         
-        self.view?.presentScene(gameOverScene, transition: transition)
+        self.view?.presentScene(menuScene, transition: transition)
     }
 }
-
