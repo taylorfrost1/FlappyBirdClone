@@ -33,6 +33,11 @@ class TutorialButton:SKSpriteNode {
     
     // MARK: - Actions
     func tapped() {
+        self.runAction(SKAction.waitForDuration(0.25), completion: {
+            self.removeFromParent()
+        })
+        
+        self.runAction(GameAudio.sharedInstance.buttonSound)
     }
 }
             

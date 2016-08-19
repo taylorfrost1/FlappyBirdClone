@@ -49,6 +49,16 @@
 		FDA0DB611D67831900DEAA3E /* RetryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB601D67831900DEAA3E /* RetryButton.swift */; };
 		FDA0DB631D67838400DEAA3E /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB621D67838400DEAA3E /* MenuScene.swift */; };
 		FDA0DB651D67842600DEAA3E /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB641D67842600DEAA3E /* GameOverScene.swift */; };
+		FDA0DB671D6786AA00DEAA3E /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB661D6786AA00DEAA3E /* Contact.swift */; };
+		FDA0DB6A1D67870200DEAA3E /* Ground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB691D67870200DEAA3E /* Ground.swift */; };
+		FDA0DB6D1D67A00A00DEAA3E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB6C1D67A00A00DEAA3E /* Player.swift */; };
+		FDA0DB721D67A2E400DEAA3E /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB711D67A2E400DEAA3E /* Log.swift */; };
+		FDA0DB741D67A38300DEAA3E /* ScoreNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB731D67A38300DEAA3E /* ScoreNode.swift */; };
+		FDA0DB761D67A40800DEAA3E /* LogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB751D67A40800DEAA3E /* LogController.swift */; };
+		FDA0DB781D67AC2000DEAA3E /* GameFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB771D67AC2000DEAA3E /* GameFonts.swift */; };
+		FDA0DB7A1D67AD6400DEAA3E /* ScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB791D67AD6400DEAA3E /* ScoreLabel.swift */; };
+		FDA0DB7C1D67ADB900DEAA3E /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB7B1D67ADB900DEAA3E /* GameSettings.swift */; };
+		FDA0DB7E1D67B07D00DEAA3E /* GameAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB7D1D67B07D00DEAA3E /* GameAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +127,16 @@
 		FDA0DB601D67831900DEAA3E /* RetryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetryButton.swift; sourceTree = "<group>"; };
 		FDA0DB621D67838400DEAA3E /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		FDA0DB641D67842600DEAA3E /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		FDA0DB661D6786AA00DEAA3E /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		FDA0DB691D67870200DEAA3E /* Ground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ground.swift; sourceTree = "<group>"; };
+		FDA0DB6C1D67A00A00DEAA3E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		FDA0DB711D67A2E400DEAA3E /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		FDA0DB731D67A38300DEAA3E /* ScoreNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreNode.swift; sourceTree = "<group>"; };
+		FDA0DB751D67A40800DEAA3E /* LogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogController.swift; sourceTree = "<group>"; };
+		FDA0DB771D67AC2000DEAA3E /* GameFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameFonts.swift; sourceTree = "<group>"; };
+		FDA0DB791D67AD6400DEAA3E /* ScoreLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreLabel.swift; sourceTree = "<group>"; };
+		FDA0DB7B1D67ADB900DEAA3E /* GameSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		FDA0DB7D1D67B07D00DEAA3E /* GameAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +216,9 @@
 		3FA2AC7E1C7BB041005F4564 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FDA0DB701D67A2D200DEAA3E /* Logs */,
+				FDA0DB6B1D679FE500DEAA3E /* Player */,
+				FDA0DB681D6786E600DEAA3E /* Environment */,
 				FDA0DB5B1D67820200DEAA3E /* Buttons */,
 				FDA0DB581D67811700DEAA3E /* Singletons */,
 				FDA0DB511D677D1000DEAA3E /* Utilities */,
@@ -312,6 +335,7 @@
 				FDA0DB521D677D4D00DEAA3E /* Constants.swift */,
 				FDA0DB541D67800F00DEAA3E /* Colors.swift */,
 				FDA0DB561D6780D500DEAA3E /* SpriteName.swift */,
+				FDA0DB661D6786AA00DEAA3E /* Contact.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -320,6 +344,9 @@
 			isa = PBXGroup;
 			children = (
 				FDA0DB591D67813C00DEAA3E /* GameTextures.swift */,
+				FDA0DB771D67AC2000DEAA3E /* GameFonts.swift */,
+				FDA0DB7B1D67ADB900DEAA3E /* GameSettings.swift */,
+				FDA0DB7D1D67B07D00DEAA3E /* GameAudio.swift */,
 			);
 			name = Singletons;
 			sourceTree = "<group>";
@@ -332,6 +359,33 @@
 				FDA0DB601D67831900DEAA3E /* RetryButton.swift */,
 			);
 			name = Buttons;
+			sourceTree = "<group>";
+		};
+		FDA0DB681D6786E600DEAA3E /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				FDA0DB691D67870200DEAA3E /* Ground.swift */,
+				FDA0DB791D67AD6400DEAA3E /* ScoreLabel.swift */,
+			);
+			name = Environment;
+			sourceTree = "<group>";
+		};
+		FDA0DB6B1D679FE500DEAA3E /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				FDA0DB6C1D67A00A00DEAA3E /* Player.swift */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		FDA0DB701D67A2D200DEAA3E /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				FDA0DB711D67A2E400DEAA3E /* Log.swift */,
+				FDA0DB731D67A38300DEAA3E /* ScoreNode.swift */,
+				FDA0DB751D67A40800DEAA3E /* LogController.swift */,
+			);
+			name = Logs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,22 +537,32 @@
 			files = (
 				3FA2AC831C7BB041005F4564 /* GameScene.swift in Sources */,
 				3FA2ACBD1C7BE410005F4564 /* SKTEffects.swift in Sources */,
+				FDA0DB781D67AC2000DEAA3E /* GameFonts.swift in Sources */,
+				FDA0DB721D67A2E400DEAA3E /* Log.swift in Sources */,
 				3FA2ACB61C7BE410005F4564 /* CGPoint+Extensions.swift in Sources */,
+				FDA0DB7A1D67AD6400DEAA3E /* ScoreLabel.swift in Sources */,
 				3FA2ACBA1C7BE410005F4564 /* SKAction+SpecialEffects.swift in Sources */,
 				3FA2ACB71C7BE410005F4564 /* CGVector+Extensions.swift in Sources */,
 				FDA0DB531D677D4D00DEAA3E /* Constants.swift in Sources */,
 				3FA2ACB91C7BE410005F4564 /* SKAction+Extensions.swift in Sources */,
+				FDA0DB761D67A40800DEAA3E /* LogController.swift in Sources */,
 				FDA0DB5A1D67813C00DEAA3E /* GameTextures.swift in Sources */,
 				FDA0DB5D1D67823200DEAA3E /* PlayButton.swift in Sources */,
+				FDA0DB7E1D67B07D00DEAA3E /* GameAudio.swift in Sources */,
 				3FA2ACBF1C7BE410005F4564 /* Vector3.swift in Sources */,
 				3FA2ACBB1C7BE410005F4564 /* SKColor+Extensions.swift in Sources */,
 				FDA0DB551D67800F00DEAA3E /* Colors.swift in Sources */,
+				FDA0DB671D6786AA00DEAA3E /* Contact.swift in Sources */,
 				3FA2AC821C7BB041005F4564 /* AppDelegate.swift in Sources */,
 				FDA0DB631D67838400DEAA3E /* MenuScene.swift in Sources */,
 				3FA2ACB81C7BE410005F4564 /* Int+Extensions.swift in Sources */,
 				FDA0DB611D67831900DEAA3E /* RetryButton.swift in Sources */,
 				3FA2ACBE1C7BE410005F4564 /* SKTTimingFunctions.swift in Sources */,
+				FDA0DB6D1D67A00A00DEAA3E /* Player.swift in Sources */,
+				FDA0DB741D67A38300DEAA3E /* ScoreNode.swift in Sources */,
+				FDA0DB7C1D67ADB900DEAA3E /* GameSettings.swift in Sources */,
 				FDA0DB5F1D6782A300DEAA3E /* TutorialButton.swift in Sources */,
+				FDA0DB6A1D67870200DEAA3E /* Ground.swift in Sources */,
 				3FA2ACBC1C7BE410005F4564 /* SKNode+Extensions.swift in Sources */,
 				FDA0DB571D6780D500DEAA3E /* SpriteName.swift in Sources */,
 				FDA0DB651D67842600DEAA3E /* GameOverScene.swift in Sources */,

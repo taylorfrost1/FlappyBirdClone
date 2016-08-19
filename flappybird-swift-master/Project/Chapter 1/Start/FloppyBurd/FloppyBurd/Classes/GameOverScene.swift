@@ -48,15 +48,22 @@ class GameOverScene:SKScene {
         if self.retryButton.containsPoint(touchLocation) {
             self.retryButton.tapped()
             
-            self.loadMenuScene()
+//            self.loadMenuScene()
+            self.loadGameScene()
         }
     }
     
     // MARK: - Load Scene
-    private func loadMenuScene() {
-        let menuScene = MenuScene(size: kViewSize)
+//    private func loadMenuScene() {
+//        let menuScene = MenuScene(size: kViewSize)
+//        let transition = SKTransition.fadeWithColor(SKColor.blackColor(), duration: 0.25)
+//        
+//        self.view?.presentScene(menuScene, transition: transition)
+//    }
+    
+    private func loadGameScene() {
+        let gameScene = GameScene(size: kViewSize)
         let transition = SKTransition.fadeWithColor(SKColor.blackColor(), duration: 0.25)
-        
-        self.view?.presentScene(menuScene, transition: transition)
+        self.view?.presentScene(gameScene, transition: transition)
     }
 }

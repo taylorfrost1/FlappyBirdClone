@@ -24,6 +24,7 @@ class MenuScene:SKScene {
     
     override func didMoveToView(view: SKView) {
         self.setupScene()
+        GameAudio.sharedInstance.playBackgroundMusic(fileName: GameAudio.sharedInstance.gameMusic)
     }
     
     // MARK: - Setup

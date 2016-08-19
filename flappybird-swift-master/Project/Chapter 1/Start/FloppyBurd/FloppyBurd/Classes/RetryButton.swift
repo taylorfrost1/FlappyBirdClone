@@ -33,5 +33,6 @@ class RetryButton:SKSpriteNode {
     
     // MARK: - Actions
     func tapped() {
+        self.runAction(GameAudio.sharedInstance.buttonSound)
     }
 }
