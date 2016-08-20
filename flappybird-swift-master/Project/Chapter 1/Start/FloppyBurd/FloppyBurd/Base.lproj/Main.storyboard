@@ -16,8 +16,25 @@
                     <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lZ0-S0-kLV" customClass="GADBannerView">
+                                <rect key="frame" x="140" y="550" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PFO-ZO-qVy"/>
+                                    <constraint firstAttribute="width" constant="320" id="WVD-Mg-WLI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lZ0-S0-kLV" firstAttribute="centerX" secondItem="3se-qz-xqx" secondAttribute="centerX" id="FbF-Ba-w9x"/>
+                            <constraint firstItem="qHh-Mt-9TT" firstAttribute="top" secondItem="lZ0-S0-kLV" secondAttribute="bottom" id="he7-hP-vuu"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bannerView" destination="lZ0-S0-kLV" id="Jxi-FU-LHE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>

@@ -8,8 +8,33 @@
 
 import UIKit
 import SpriteKit
+import GoogleMobileAds
 
-class GameViewController: UIViewController {
+class GameViewController: UIViewController, GADBannerViewDelegate {
+
+    @IBOutlet weak var bannerView: GADBannerView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        bannerView.hidden = true
+        
+        let request = GADRequest()
+        request.testDevices = [kGADSimulatorID]
+        bannerView.delegate = self
+        bannerView.adUnitID = "ca-app-pub-2384558132323348/9243103317"
+        bannerView.rootViewController = self
+        bannerView.loadRequest(request)
+    }
+    
+    func adViewDidReceiveAd(bannerView: GADBannerView!) {
+        
+        bannerView.hidden = false
+    }
+    
+    func adView(bannerView: GADBannerView!, didFailToReceiveAdWithError error: GADRequestError!) {
+        bannerView.hidden = true
+    }
 
         override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
