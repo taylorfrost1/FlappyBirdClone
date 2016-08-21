@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F985DBD1C865FE400ED3799 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985DB71C865FE400ED3799 /* Default-568h@2x.png */; };
-		3F985DBE1C865FE400ED3799 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985DB81C865FE400ED3799 /* Default-667h@2x.png */; };
-		3F985DBF1C865FE400ED3799 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985DB91C865FE400ED3799 /* Default-736h@3x.png */; };
-		3F985DC01C865FE400ED3799 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985DBA1C865FE400ED3799 /* Default@2x.png */; };
-		3F985DC11C865FE400ED3799 /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985DBB1C865FE400ED3799 /* Default@2x~ipad.png */; };
-		3F985DC21C865FE400ED3799 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985DBC1C865FE400ED3799 /* Default~ipad.png */; };
 		3FA2AC561C7BAFB6005F4564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC541C7BAFB6005F4564 /* Main.storyboard */; };
 		3FA2AC581C7BAFB6005F4564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC571C7BAFB6005F4564 /* Assets.xcassets */; };
 		3FA2AC661C7BAFB6005F4564 /* FloppyBurdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AC651C7BAFB6005F4564 /* FloppyBurdTests.swift */; };
@@ -40,6 +34,12 @@
 		3FA2ACBD1C7BE410005F4564 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2ACB21C7BE410005F4564 /* SKTEffects.swift */; };
 		3FA2ACBE1C7BE410005F4564 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2ACB31C7BE410005F4564 /* SKTTimingFunctions.swift */; };
 		3FA2ACBF1C7BE410005F4564 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2ACB41C7BE410005F4564 /* Vector3.swift */; };
+		FD590BAE1D69F41000DD59CB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD590BA81D69F41000DD59CB /* Default-568h@2x.png */; };
+		FD590BAF1D69F41000DD59CB /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD590BA91D69F41000DD59CB /* Default-667h@2x.png */; };
+		FD590BB01D69F41000DD59CB /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD590BAA1D69F41000DD59CB /* Default-736h@3x.png */; };
+		FD590BB11D69F41000DD59CB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD590BAB1D69F41000DD59CB /* Default@2x.png */; };
+		FD590BB21D69F41000DD59CB /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FD590BAC1D69F41000DD59CB /* Default@2x~ipad.png */; };
+		FD590BB31D69F41000DD59CB /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FD590BAD1D69F41000DD59CB /* Default~ipad.png */; };
 		FDA0DB531D677D4D00DEAA3E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB521D677D4D00DEAA3E /* Constants.swift */; };
 		FDA0DB551D67800F00DEAA3E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB541D67800F00DEAA3E /* Colors.swift */; };
 		FDA0DB571D6780D500DEAA3E /* SpriteName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0DB561D6780D500DEAA3E /* SpriteName.swift */; };
@@ -89,20 +89,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F985DB71C865FE400ED3799 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3F985DB81C865FE400ED3799 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
-		3F985DB91C865FE400ED3799 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
-		3F985DBA1C865FE400ED3799 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		3F985DBB1C865FE400ED3799 /* Default@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~ipad.png"; sourceTree = "<group>"; };
-		3F985DBC1C865FE400ED3799 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
-		3FA2AC491C7BAFB6005F4564 /* FloppyBurd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloppyBurd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA2AC491C7BAFB6005F4564 /* Flappy Birds and More.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Birds and More.temp_caseinsensitive_rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA2AC551C7BAFB6005F4564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FA2AC571C7BAFB6005F4564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA2AC5C1C7BAFB6005F4564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FA2AC611C7BAFB6005F4564 /* FloppyBurdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloppyBurdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA2AC611C7BAFB6005F4564 /* Flappy Birds and More.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy Birds and More.temp_caseinsensitive_rename.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA2AC651C7BAFB6005F4564 /* FloppyBurdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyBurdTests.swift; sourceTree = "<group>"; };
 		3FA2AC671C7BAFB6005F4564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FA2AC6C1C7BAFB6005F4564 /* FloppyBurdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloppyBurdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA2AC6C1C7BAFB6005F4564 /* Flappy Birds and More.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy Birds and More.temp_caseinsensitive_rename.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA2AC701C7BAFB6005F4564 /* FloppyBurdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyBurdUITests.swift; sourceTree = "<group>"; };
 		3FA2AC721C7BAFB6005F4564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FA2AC7F1C7BB041005F4564 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +122,12 @@
 		3FA2ACB21C7BE410005F4564 /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
 		3FA2ACB31C7BE410005F4564 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
 		3FA2ACB41C7BE410005F4564 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		FD590BA81D69F41000DD59CB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FD590BA91D69F41000DD59CB /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		FD590BAA1D69F41000DD59CB /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		FD590BAB1D69F41000DD59CB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FD590BAC1D69F41000DD59CB /* Default@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~ipad.png"; sourceTree = "<group>"; };
+		FD590BAD1D69F41000DD59CB /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
 		FDA0DB521D677D4D00DEAA3E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FDA0DB541D67800F00DEAA3E /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		FDA0DB561D6780D500DEAA3E /* SpriteName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteName.swift; sourceTree = "<group>"; };
@@ -199,9 +199,9 @@
 		3FA2AC4A1C7BAFB6005F4564 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FA2AC491C7BAFB6005F4564 /* FloppyBurd.app */,
-				3FA2AC611C7BAFB6005F4564 /* FloppyBurdTests.xctest */,
-				3FA2AC6C1C7BAFB6005F4564 /* FloppyBurdUITests.xctest */,
+				3FA2AC491C7BAFB6005F4564 /* Flappy Birds and More.temp_caseinsensitive_rename.app */,
+				3FA2AC611C7BAFB6005F4564 /* Flappy Birds and More.temp_caseinsensitive_rename.xctest */,
+				3FA2AC6C1C7BAFB6005F4564 /* Flappy Birds and More.temp_caseinsensitive_rename.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -275,12 +275,12 @@
 		3FA2AC881C7BB061005F4564 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
-				3F985DB71C865FE400ED3799 /* Default-568h@2x.png */,
-				3F985DB81C865FE400ED3799 /* Default-667h@2x.png */,
-				3F985DB91C865FE400ED3799 /* Default-736h@3x.png */,
-				3F985DBA1C865FE400ED3799 /* Default@2x.png */,
-				3F985DBB1C865FE400ED3799 /* Default@2x~ipad.png */,
-				3F985DBC1C865FE400ED3799 /* Default~ipad.png */,
+				FD590BA81D69F41000DD59CB /* Default-568h@2x.png */,
+				FD590BA91D69F41000DD59CB /* Default-667h@2x.png */,
+				FD590BAA1D69F41000DD59CB /* Default-736h@3x.png */,
+				FD590BAB1D69F41000DD59CB /* Default@2x.png */,
+				FD590BAC1D69F41000DD59CB /* Default@2x~ipad.png */,
+				FD590BAD1D69F41000DD59CB /* Default~ipad.png */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -430,9 +430,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FA2AC481C7BAFB6005F4564 /* FloppyBurd */ = {
+		3FA2AC481C7BAFB6005F4564 /* Flappy Birds and more */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FA2AC751C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "FloppyBurd" */;
+			buildConfigurationList = 3FA2AC751C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "Flappy Birds and more" */;
 			buildPhases = (
 				3FA2AC451C7BAFB6005F4564 /* Sources */,
 				3FA2AC461C7BAFB6005F4564 /* Frameworks */,
@@ -442,14 +442,14 @@
 			);
 			dependencies = (
 			);
-			name = FloppyBurd;
+			name = "Flappy Birds and more";
 			productName = FloppyBurd;
-			productReference = 3FA2AC491C7BAFB6005F4564 /* FloppyBurd.app */;
+			productReference = 3FA2AC491C7BAFB6005F4564 /* Flappy Birds and More.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3FA2AC601C7BAFB6005F4564 /* FloppyBurdTests */ = {
+		3FA2AC601C7BAFB6005F4564 /* Flappy Birds and moreTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FA2AC781C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "FloppyBurdTests" */;
+			buildConfigurationList = 3FA2AC781C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "Flappy Birds and moreTests" */;
 			buildPhases = (
 				3FA2AC5D1C7BAFB6005F4564 /* Sources */,
 				3FA2AC5E1C7BAFB6005F4564 /* Frameworks */,
@@ -460,14 +460,14 @@
 			dependencies = (
 				3FA2AC631C7BAFB6005F4564 /* PBXTargetDependency */,
 			);
-			name = FloppyBurdTests;
+			name = "Flappy Birds and moreTests";
 			productName = FloppyBurdTests;
-			productReference = 3FA2AC611C7BAFB6005F4564 /* FloppyBurdTests.xctest */;
+			productReference = 3FA2AC611C7BAFB6005F4564 /* Flappy Birds and More.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3FA2AC6B1C7BAFB6005F4564 /* FloppyBurdUITests */ = {
+		3FA2AC6B1C7BAFB6005F4564 /* Flappy Birds and moreUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FA2AC7B1C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "FloppyBurdUITests" */;
+			buildConfigurationList = 3FA2AC7B1C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "Flappy Birds and moreUITests" */;
 			buildPhases = (
 				3FA2AC681C7BAFB6005F4564 /* Sources */,
 				3FA2AC691C7BAFB6005F4564 /* Frameworks */,
@@ -478,9 +478,9 @@
 			dependencies = (
 				3FA2AC6E1C7BAFB6005F4564 /* PBXTargetDependency */,
 			);
-			name = FloppyBurdUITests;
+			name = "Flappy Birds and moreUITests";
 			productName = FloppyBurdUITests;
-			productReference = 3FA2AC6C1C7BAFB6005F4564 /* FloppyBurdUITests.xctest */;
+			productReference = 3FA2AC6C1C7BAFB6005F4564 /* Flappy Birds and More.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -508,7 +508,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3FA2AC441C7BAFB6005F4564 /* Build configuration list for PBXProject "FloppyBurd" */;
+			buildConfigurationList = 3FA2AC441C7BAFB6005F4564 /* Build configuration list for PBXProject "Flappy Birds and More" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -521,9 +521,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FA2AC481C7BAFB6005F4564 /* FloppyBurd */,
-				3FA2AC601C7BAFB6005F4564 /* FloppyBurdTests */,
-				3FA2AC6B1C7BAFB6005F4564 /* FloppyBurdUITests */,
+				3FA2AC481C7BAFB6005F4564 /* Flappy Birds and more */,
+				3FA2AC601C7BAFB6005F4564 /* Flappy Birds and moreTests */,
+				3FA2AC6B1C7BAFB6005F4564 /* Flappy Birds and moreUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -533,24 +533,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD590BB11D69F41000DD59CB /* Default@2x.png in Resources */,
 				3FA2ACA51C7BB061005F4564 /* Smack.caf in Resources */,
-				3F985DC11C865FE400ED3799 /* Default@2x~ipad.png in Resources */,
 				3FA2AC581C7BAFB6005F4564 /* Assets.xcassets in Resources */,
-				3F985DC21C865FE400ED3799 /* Default~ipad.png in Resources */,
-				3F985DBE1C865FE400ED3799 /* Default-667h@2x.png in Resources */,
+				FD590BB01D69F41000DD59CB /* Default-736h@3x.png in Resources */,
+				FD590BB31D69F41000DD59CB /* Default~ipad.png in Resources */,
 				3FA2ACA21C7BB061005F4564 /* HighScore.caf in Resources */,
 				3FA2ACA41C7BB061005F4564 /* Score.caf in Resources */,
 				3FA2AC9F1C7BB061005F4564 /* Crash.caf in Resources */,
-				3F985DBD1C865FE400ED3799 /* Default-568h@2x.png in Resources */,
 				3FA2ACA31C7BB061005F4564 /* Pop.caf in Resources */,
 				3FA2ACA01C7BB061005F4564 /* Fall.caf in Resources */,
+				FD590BB21D69F41000DD59CB /* Default@2x~ipad.png in Resources */,
 				FDC8A4761D681C570057F461 /* GoogleService-Info.plist in Resources */,
 				3FA2ACA11C7BB061005F4564 /* Flap.caf in Resources */,
+				FD590BAF1D69F41000DD59CB /* Default-667h@2x.png in Resources */,
+				FD590BAE1D69F41000DD59CB /* Default-568h@2x.png in Resources */,
 				3FA2AC9E1C7BB061005F4564 /* Pixel Adventures.mp3 in Resources */,
 				3FA2AC981C7BB061005F4564 /* editundo.ttf in Resources */,
-				3F985DC01C865FE400ED3799 /* Default@2x.png in Resources */,
 				3FA2AC561C7BAFB6005F4564 /* Main.storyboard in Resources */,
-				3F985DBF1C865FE400ED3799 /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,12 +640,12 @@
 /* Begin PBXTargetDependency section */
 		3FA2AC631C7BAFB6005F4564 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3FA2AC481C7BAFB6005F4564 /* FloppyBurd */;
+			target = 3FA2AC481C7BAFB6005F4564 /* Flappy Birds and more */;
 			targetProxy = 3FA2AC621C7BAFB6005F4564 /* PBXContainerItemProxy */;
 		};
 		3FA2AC6E1C7BAFB6005F4564 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3FA2AC481C7BAFB6005F4564 /* FloppyBurd */;
+			target = 3FA2AC481C7BAFB6005F4564 /* Flappy Birds and more */;
 			targetProxy = 3FA2AC6D1C7BAFB6005F4564 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -758,7 +758,7 @@
 				INFOPLIST_FILE = FloppyBurd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.FlappyBirds;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flappy Birds and More.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -774,7 +774,7 @@
 				INFOPLIST_FILE = FloppyBurd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.FlappyBirds;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flappy Birds and More.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -786,8 +786,8 @@
 				INFOPLIST_FILE = FloppyBurdTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jnovak.FloppyBurdTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloppyBurd.app/FloppyBurd";
+				PRODUCT_NAME = "Flappy Birds and More.temp_caseinsensitive_rename";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flappy Birds and More.temp_caseinsensitive_rename.app/Flappy Birds and More.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -798,8 +798,8 @@
 				INFOPLIST_FILE = FloppyBurdTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jnovak.FloppyBurdTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloppyBurd.app/FloppyBurd";
+				PRODUCT_NAME = "Flappy Birds and More.temp_caseinsensitive_rename";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flappy Birds and More.temp_caseinsensitive_rename.app/Flappy Birds and More.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -810,7 +810,7 @@
 				INFOPLIST_FILE = FloppyBurdUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jnovak.FloppyBurdUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flappy Birds and More.temp_caseinsensitive_rename";
 				TEST_TARGET_NAME = FloppyBurd;
 				USES_XCTRUNNER = YES;
 			};
@@ -822,7 +822,7 @@
 				INFOPLIST_FILE = FloppyBurdUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jnovak.FloppyBurdUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flappy Birds and More.temp_caseinsensitive_rename";
 				TEST_TARGET_NAME = FloppyBurd;
 				USES_XCTRUNNER = YES;
 			};
@@ -831,7 +831,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FA2AC441C7BAFB6005F4564 /* Build configuration list for PBXProject "FloppyBurd" */ = {
+		3FA2AC441C7BAFB6005F4564 /* Build configuration list for PBXProject "Flappy Birds and More" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FA2AC731C7BAFB6005F4564 /* Debug */,
@@ -840,7 +840,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FA2AC751C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "FloppyBurd" */ = {
+		3FA2AC751C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "Flappy Birds and more" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FA2AC761C7BAFB6005F4564 /* Debug */,
@@ -849,7 +849,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FA2AC781C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "FloppyBurdTests" */ = {
+		3FA2AC781C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "Flappy Birds and moreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FA2AC791C7BAFB6005F4564 /* Debug */,
@@ -858,7 +858,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FA2AC7B1C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "FloppyBurdUITests" */ = {
+		3FA2AC7B1C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "Flappy Birds and moreUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FA2AC7C1C7BAFB6005F4564 /* Debug */,

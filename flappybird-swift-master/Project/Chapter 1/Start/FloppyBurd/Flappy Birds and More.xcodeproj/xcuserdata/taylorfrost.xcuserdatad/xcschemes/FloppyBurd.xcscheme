@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3FA2AC481C7BAFB6005F4564"
-               BuildableName = "FloppyBurd.app"
-               BlueprintName = "FloppyBurd"
-               ReferencedContainer = "container:FloppyBurd.xcodeproj">
+               BuildableName = "Flappy Birds and More.temp_caseinsensitive_rename.app"
+               BlueprintName = "Flappy Birds and more"
+               ReferencedContainer = "container:Flappy Birds and More.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3FA2AC601C7BAFB6005F4564"
-               BuildableName = "FloppyBurdTests.xctest"
-               BlueprintName = "FloppyBurdTests"
-               ReferencedContainer = "container:FloppyBurd.xcodeproj">
+               BuildableName = "Flappy Birds and More.temp_caseinsensitive_rename.xctest"
+               BlueprintName = "Flappy Birds and moreTests"
+               ReferencedContainer = "container:Flappy Birds and More.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3FA2AC6B1C7BAFB6005F4564"
-               BuildableName = "FloppyBurdUITests.xctest"
-               BlueprintName = "FloppyBurdUITests"
-               ReferencedContainer = "container:FloppyBurd.xcodeproj">
+               BuildableName = "Flappy Birds and More.temp_caseinsensitive_rename.xctest"
+               BlueprintName = "Flappy Birds and moreUITests"
+               ReferencedContainer = "container:Flappy Birds and More.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3FA2AC481C7BAFB6005F4564"
-            BuildableName = "FloppyBurd.app"
-            BlueprintName = "FloppyBurd"
-            ReferencedContainer = "container:FloppyBurd.xcodeproj">
+            BuildableName = "Flappy Birds and More.temp_caseinsensitive_rename.app"
+            BlueprintName = "Flappy Birds and more"
+            ReferencedContainer = "container:Flappy Birds and More.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3FA2AC481C7BAFB6005F4564"
-            BuildableName = "FloppyBurd.app"
-            BlueprintName = "FloppyBurd"
-            ReferencedContainer = "container:FloppyBurd.xcodeproj">
+            BuildableName = "Flappy Birds and More.temp_caseinsensitive_rename.app"
+            BlueprintName = "Flappy Birds and more"
+            ReferencedContainer = "container:Flappy Birds and More.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3FA2AC481C7BAFB6005F4564"
-            BuildableName = "FloppyBurd.app"
-            BlueprintName = "FloppyBurd"
-            ReferencedContainer = "container:FloppyBurd.xcodeproj">
+            BuildableName = "Flappy Birds and More.temp_caseinsensitive_rename.app"
+            BlueprintName = "Flappy Birds and more"
+            ReferencedContainer = "container:Flappy Birds and More.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
