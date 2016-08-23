@@ -17,7 +17,7 @@
                BlueprintIdentifier = "3FA2AC481C7BAFB6005F4564"
                BuildableName = "Flappy Birds and More.temp_caseinsensitive_rename.app"
                BlueprintName = "Flappy Birds and more"
-               ReferencedContainer = "container:Flappy Birds and More.xcodeproj">
+               ReferencedContainer = "container:Happy Bird.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "3FA2AC601C7BAFB6005F4564"
                BuildableName = "Flappy Birds and More.temp_caseinsensitive_rename.xctest"
                BlueprintName = "Flappy Birds and moreTests"
-               ReferencedContainer = "container:Flappy Birds and More.xcodeproj">
+               ReferencedContainer = "container:Happy Bird.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "3FA2AC6B1C7BAFB6005F4564"
                BuildableName = "Flappy Birds and More.temp_caseinsensitive_rename.xctest"
                BlueprintName = "Flappy Birds and moreUITests"
-               ReferencedContainer = "container:Flappy Birds and More.xcodeproj">
+               ReferencedContainer = "container:Happy Bird.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "3FA2AC481C7BAFB6005F4564"
             BuildableName = "Flappy Birds and More.temp_caseinsensitive_rename.app"
             BlueprintName = "Flappy Birds and more"
-            ReferencedContainer = "container:Flappy Birds and More.xcodeproj">
+            ReferencedContainer = "container:Happy Bird.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "3FA2AC481C7BAFB6005F4564"
             BuildableName = "Flappy Birds and More.temp_caseinsensitive_rename.app"
             BlueprintName = "Flappy Birds and more"
-            ReferencedContainer = "container:Flappy Birds and More.xcodeproj">
+            ReferencedContainer = "container:Happy Bird.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "3FA2AC481C7BAFB6005F4564"
             BuildableName = "Flappy Birds and More.temp_caseinsensitive_rename.app"
             BlueprintName = "Flappy Birds and more"
-            ReferencedContainer = "container:Flappy Birds and More.xcodeproj">
+            ReferencedContainer = "container:Happy Bird.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -3,7 +3,7 @@
 //  FloppyBurd
 //
 //  Created by Taylor Frost on 8/19/16.
-//  Copyright © 2016 Jeremy Novak. All rights reserved.
+//  
 //
 
 import SpriteKit
